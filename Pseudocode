@@ -1,0 +1,36 @@
+Pseudocode
+Append to a linked list:
+    Create a new node, assign input to this new node
+    IF the head of the list is empty, assign the new node to the head and tail
+    ELSE make the current tail point to the new node, make the new node the new tail
+	  Increase count
+   
+Prepend to a linked list:
+    Create a new node, assign input to this new node.
+    IF the head of the list is empty, assign the new node to the head and tail
+    Increase count
+    
+Print a linked list:
+  	Start at the head
+    WHILE the current element exists, output the attributes of the element
+    Increment the current element to the next pointed element in the list
+
+
+
+Remove from a linked list:
+    IF the selected item is the head node, remove the head
+    WHILE the element in the list exists and does not equal the key
+    Check if the element is the key, if it is, assign it to the temp value
+    If it is not, check the next value
+    Delete the temp value
+
+
+
+Search a linked list:
+    Check if the bid is empty
+    Assign a new node to the head
+    WHILE the element exists
+    IF the element equals the search key, return the element
+    Increment to the next element
+    If no element matches the search key, return empty
+
